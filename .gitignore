@@ -1,0 +1,14 @@
+@"
+.gradle/
+build/
+out/
+target/
+*.class
+
+.idea/
+.vscode/
+*.iml
+
+.env
+.DS_Store
+"@ | Out-File -Encoding utf8 .gitignore
